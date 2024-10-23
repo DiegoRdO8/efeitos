@@ -1,0 +1,533 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header {
+    background-color: white;
+}
+
+.logo {
+    font-family: Montserrat;
+    font-size: 2.700em;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -2px;
+    color: #160f53;
+    margin: 10px 220px 10px 100px;
+}
+
+.nalinha {
+    display: flex;
+    gap: 8px;
+    padding: 0px 0px 0px 10px;
+}
+
+.ancoras {
+    margin: 40px 0px 00px 0px;
+}
+
+.ancoras a {
+    color: #160f53;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 0.700em;
+    margin: 0px 20px 0px 20px;
+}
+
+.botaoheader {
+    background-color: #6bf09f;
+    color: #160f53;
+    font-size: 0.700em;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #255337;
+    margin: 30px 10px 0px 150px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    background-color: #8a8787;
+    flex: 1;
+}
+
+.direita {
+    background-color: #6bf09f;
+    flex: 1;
+}
+
+.imgforms {
+    grid-column: 3 / span 8;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    margin: 70px 10px 10px 10px;
+}
+
+.imgforms img {
+    width: 450px;
+    height: 530px;
+}
+
+.forms {
+    width: 300px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+}
+
+.forms h1 {
+    font-size: 2.000em;
+    color: #09061f;
+    font-weight: 900;
+    font-family: "Montserrat";
+
+}
+
+.forms h2 {
+    font-size: 18x;
+    color: #0c092b;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+
+.forms label {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0c092b;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin-top: 20px;
+}
+
+.forms a {
+    color: red;
+}
+
+.forms input {
+    border: none;
+    border-bottom: 2px solid rgb(212, 211, 211);
+    outline: none;
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    width: 90%;
+}
+
+.formsbutton {
+    margin: 20px 10px 0px 45px;
+    padding: 10px 15px;
+    background-color: #6bf09f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #160f53;
+    width: 175px;
+    height: 45px;
+    text-align: center;
+    box-shadow: 3px 3px 5px #47a069;
+    pointer-events: none;
+}
+
+.descricao {
+    margin: 120px 10px 10px 80px;
+}
+
+.descricao p {
+    font-size: 16px;
+    color: #0c092b;
+    font-weight: 400;
+    font-family: "Lora";
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+.descricao h1 {
+    font-size: 50px;
+    width: 550px;
+    text-transform: uppercase;
+    color: #120d44;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+
+.conteudo {
+    margin-left: 10px;
+}
+
+.descricao button {
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #0c092e;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    border: #09061f solid 2px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.barras {
+    margin: 10px 10px -170px 0px;
+}
+
+.barra {
+    background-color: yellow;
+    width: 452px;
+    height: 14px;
+    margin-bottom: 45px;
+}
+
+.barra p {
+    color: transparent;
+}
+
+.barra2 {
+    background-color: yellow;
+    width: 505px;
+    height: 14px;
+    margin-bottom: 35px;
+}
+
+.barra2 p {
+    color: transparent;
+
+}
+
+.barra3 {
+    background-color: yellow;
+    width: 260px;
+    height: 14px;
+    margin-top: 50px;
+}
+
+.barra3 p{
+    color: transparent;
+}
+
+.quadrado img {
+    position: absolute;
+    left: 590px;
+    top: 160px;
+    width: 150px;
+    height: 155px;
+}
+
+.bolinhas img{
+    position: absolute;
+    top: 150px;
+    right: 80px;
+    width: 620px;
+    height: 355px;
+}
+
+.escada img{
+    position: absolute;
+    right: 15px;
+    top: 70px;
+    width: 170px;
+}
+
+.detalhe img{
+    position: absolute;
+    top: 50px;
+    right: 510px;
+    width: 120px;
+}
+
+.escadaamarela img{
+    position: absolute;
+    right: 540px;
+    top: 470px;
+    width: 150px;
+}
+
+.triangulo img{
+    position: absolute;
+    right: 260px;
+    top: 540px;
+    width: 180px;
+}
+
+.linha-vertical {
+    width: 2px;      
+    background-color: rgb(70, 69, 69); 
+    opacity: 0.100;
+    margin-left: 650px;
+    margin-top: -475px;
+    height: 630px;
+}
+
+.icons{
+  position: absolute;
+  right: 10px;
+  background-color: #6bf09f;
+}
+
+@media only screen and (max-width: 799px) {
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh; 
+    }
+    
+    .direita {
+        background-color: #6bf09f;
+        flex: 1; 
+        order: 1;
+    }
+    
+    .esquerda {
+        order: 2;
+        background-color: #8a8787;
+        flex: 1; 
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .logo {
+        font-size: 1.700em;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .ancoras{
+        display: flex;
+        height: 10px;
+        margin: 90px -10px 10px -80px;
+    }
+
+   
+    .ancoras a {
+        font-size: 0.500em;
+        margin-right: -5px;
+    }
+
+    .botaoheader {
+        font-size: 0.550em;
+        height: 25px;
+        width: 100px;
+        border-radius: 4px;
+        margin: 20px 0px 0px -60px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    /*indo para a parte de conteudos*/
+
+    .descricao {
+        margin: 50px 10px 10px 10px;
+    }
+
+    .descricao p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 280px;
+        margin-bottom: 35px;
+    }
+
+    .how{
+       position: relative;
+       top: 10px;
+    }
+
+    .texto{
+        position: relative;
+        top: 10px;
+    }
+    
+    .descricao h1 {
+        font-size: 30px;
+        width: 295px;
+        font-weight: 900;
+    }
+    
+    .conteudo {
+        margin-left: 5px;
+    }
+
+    .barras {
+        margin: 10px 10px -108px 0px;
+    }
+    
+    .barra {
+        background-color: yellow;
+        width: 272px;
+        height: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .barra p {
+        color: transparent;
+    }
+    
+    .barra2 {
+        background-color: yellow;
+        width: 300px;
+        height: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .barra2 p {
+        color: transparent;
+    
+    }
+    
+    .barra3 {
+        background-color: yellow;
+        width: 160px;
+        height: 10px;
+        margin-top: 10px;
+    }
+
+    .descricao button {
+        margin: 10px 10px 10px 60px;
+    }
+
+    .quadrado img {
+        left: 80px;
+        top: 570px;
+    }
+    
+    .bolinhas img{
+        top: 160px;
+        right: 10px;
+        width: 380px;
+        height: 205px;
+    }
+    
+    .escada img{
+        left: 200px;
+        top: 75px;
+        width: 120px;
+    }
+    
+    .detalhe img{
+        top: 25px;
+        right: 230px;
+        width: 120px;
+    }
+    
+    .escadaamarela img{
+        left: 0px;
+        top: 450px;
+        width: 100px;
+    }
+    
+    .triangulo img{
+        right: 60px;
+        top: 470px;
+        width: 180px;
+    }
+    
+    .linha-vertical {       
+        margin-left: 310px;
+        margin-top: -405px;
+        margin-bottom: -115px;
+    }
+    
+    .icons{
+      position: absolute;
+      right: 1px;
+      background-color: #6bf09f;
+    }
+
+    /*partindo para a parte de forms*/
+    
+    .imgforms img {
+        width: 300px;
+        height: 420px;
+    }
+    
+    .forms {
+        width: 180px;
+        margin-top: 30px;
+        position: absolute;
+        z-index: 1;
+        padding: 5px;
+    }
+    
+    .forms h1 {
+        font-size: 1.200em;
+        color: #09061f;
+        font-weight: 900;
+        font-family: "Montserrat";
+    
+    }
+    
+    .forms h2 {
+        font-size: 1.000em;
+        color: #0c092b;
+        font-weight: 400;
+        font-family: "Montserrat";
+        margin-bottom: 30px;
+    }
+    
+    .forms label {
+        font-size: 10px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #0c092b;
+        font-weight: 500;
+        font-family: "Montserrat";
+        margin-top: 20px;
+    }
+    
+    .forms a {
+        color: red;
+        font-size: 0.900em;
+    }
+    
+    .forms input {
+        border: none;
+        border-bottom: 2px solid rgb(212, 211, 211);
+        outline: none;
+        background: transparent;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        width: 90%;
+        font-size: 0.800em;
+    }
+    
+    .formsbutton {
+        margin: 0px 0px 0px 0px;
+        padding: 10px 15px;
+        background-color: #6bf09f;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #160f53;
+        width: 155px;
+        height: 35px;
+        text-align: center;
+        box-shadow: 3px 3px 5px #47a069;
+        pointer-events: none;
+    }
+
+}
+
+/*final*/
